@@ -1,12 +1,8 @@
-:root {
- --primaryColor: #0f0f11;
- --textColor: #fff;
-}
-
 body {
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
     background-color: #0F0F11;
+    
 }
 
 .container {
@@ -34,6 +30,8 @@ nav {
     padding-top: 40px;
 }
 
+
+
 .logo {
     display: flex;
     justify-content: center;
@@ -49,6 +47,7 @@ nav {
     position: relative;
     height: 40px;
     align-items: center;
+    font-size: 1.5em;
 }
 
 .home-link::after {
@@ -168,4 +167,5 @@ nav {
 .tweets-search-input i {
     font-size: 30px;
     color: white;
-    cursor: pointer;}
+    cursor: pointer;
+}
